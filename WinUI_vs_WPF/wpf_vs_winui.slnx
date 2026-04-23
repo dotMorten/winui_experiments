@@ -1,0 +1,17 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="App_WinUI/App_WinUI.csproj">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+  <Project Path="App_WinUICpp/App_WinUICpp.vcxproj" Id="801acd08-5ccc-482f-9369-141588d23305">
+    <Deploy />
+  </Project>
+  <Project Path="App_WPF/App_WPF.csproj" />
+</Solution>

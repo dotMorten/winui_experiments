@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <!--<TargetFramework>net472</TargetFramework>-->
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <LangVersion>12</LangVersion>
+    <StartupObject>App_WPF.Program</StartupObject>
+    <Platform>ARM64</Platform>
+  </PropertyGroup>
+
+</Project>

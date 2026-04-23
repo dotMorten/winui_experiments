@@ -1,0 +1,15 @@
+namespace App_WinUICpp
+{
+    runtimeclass DataItem
+    {
+        DataItem();
+        String Name;
+    }
+
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+        Windows.Foundation.Collections.IObservableVector<DataItem> Items{ get; };
+    }
+}
